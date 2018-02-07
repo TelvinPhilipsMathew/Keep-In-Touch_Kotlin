@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "126151925137",
+    "firebase_url": "https://keepintouch-132e5.firebaseio.com",
+    "project_id": "keepintouch-132e5",
+    "storage_bucket": "keepintouch-132e5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:126151925137:android:61a3810e569445ea",
+        "android_client_info": {
+          "package_name": "com.thinkpalm.keepintouch"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "126151925137-9shjmnuqer64bff1fib45g3i598ecsg6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD2pfx0T9gpc6xMPX8koqxj57xANi7OnRM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

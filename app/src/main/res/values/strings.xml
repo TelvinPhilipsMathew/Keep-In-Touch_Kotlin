@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Keep In Touch</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_chat">Chat</string>
+    <string name="title_profile">Profile</string>
+
+    <string name="title_activity_splash">SplashActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="or">or</string>
+    <string name="login_with_facebook">Log in with Facebook</string>
+    <string name="keep_in_touch">Keep In Touch</string>
+    <string name="app_tagline">Companion App</string>
+    <string name="terms_use">By signing up you are agreeing to Privacy Policy and Terms of use.</string>
+    <string name="signup_with_facebook">Sign up with Facebook</string>
+    <string name="continue_with_facebook">Continue with Facebook</string>
+    <string name="facebook_app_id">1667343286619382</string>
+    <string name="fb_login_protocol_scheme">fb1667343286619382</string>
+    <string name="google_maps_key">AIzaSyDpLL6PGKc_OFy8BRjq6sY-A0VUF4D3v8w</string>
+
+</resources>

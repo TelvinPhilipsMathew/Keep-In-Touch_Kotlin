@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_splash"
+    tools:context=".ui.activities.LoginActivity">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="50dp"
+        android:foregroundGravity="center"
+        android:src="@mipmap/ic_launcher"
+        android:transitionName="logo"/>
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/logo"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/roboto"
+        android:padding="12dp"
+        android:text="@string/keep_in_touch"
+        android:transitionName="title"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title"
+        android:transitionName="desc"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/roboto_light"
+        android:text="@string/app_tagline"
+        android:textColor="@android:color/white"
+        android:textSize="12sp"/>
+
+    <Button
+        android:id="@+id/btn_fb"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_above="@+id/tv_terms"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="24dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:drawableStart="@drawable/ic_fb"
+        android:textAllCaps="false"
+        android:drawablePadding="16dp"
+        android:drawableLeft="@drawable/ic_fb"
+        android:background="@drawable/round_gradient_bg"
+        android:fontFamily="@font/roboto_medium"
+        android:padding="16dp"
+        android:text="@string/continue_with_facebook"
+        android:textColor="@android:color/white"/>
+
+    <TextView
+        android:id="@+id/tv_terms"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:fontFamily="sans-serif-condensed"
+        android:gravity="center"
+        android:padding="16dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="50dp"
+        android:text="@string/terms_use"
+        android:textColor="@android:color/white"
+        android:textSize="12sp"/>
+</RelativeLayout>
